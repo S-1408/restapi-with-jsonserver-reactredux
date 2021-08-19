@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "name": "Riyan",
+      "email": "abc@mail.com",
+      "contact": "76578648645",
+      "location": "Bangalore",
+      "id": 1
+    },
+    {
+      "name": "Shiva",
+      "email": "mn@mail.com",
+      "contact": "7558767864",
+      "location": "Delhi",
+      "id": 2
+    },
+    {
+      "name": "Raman",
+      "email": "bn@mail.com",
+      "contact": "887578567",
+      "location": "Noida",
+      "id": 3
+    },
+    {
+      "name": "Siya",
+      "email": "sn@mail.com",
+      "contact": "89864877643",
+      "location": "Gujrat",
+      "id": 4
+    },
+    {
+      "name": "Fatima",
+      "email": "d@mail.com",
+      "contact": "857686575",
+      "location": "Delhi",
+      "id": 5
+    }
+  ]
+}
