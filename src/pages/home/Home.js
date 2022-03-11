@@ -83,23 +83,23 @@ const Home = () =>{
         </TableHead>
         <TableBody>
          {
-             users && users.map(user =>(
+             users && users?.map(user =>(
 <StyledTableRow key={user.id}>
               <StyledTableCell component="th" scope="row">
-                {user.name}
+                {user?.name}
               </StyledTableCell>
-              <StyledTableCell align="center">{user.email}</StyledTableCell>
+              <StyledTableCell align="center">{user?.email}</StyledTableCell>
 
-              <StyledTableCell align="center">{user.contact}</StyledTableCell>
-              <StyledTableCell align="center">{user.location}</StyledTableCell>
+              <StyledTableCell align="center">{user?.contact}</StyledTableCell>
+              <StyledTableCell align="center">{user?.location}</StyledTableCell>
 
                             <StyledTableCell align="center"> 
                             
                             <Button variant="contained" color="secondary" 
-                            onClick={()=> handleDelete(user.id)}>
+                            onClick={()=> handleDelete(user?.id)}>
 Delete
 </Button>
-                                <Button variant="contained" color='primary' onClick={()=>history.push(`/editUser/${user.id}`)}>Edit</Button>
+                                <Button variant="contained" color='primary' onClick={()=>history.push(`/editUser/${user?.id}`)}>Edit</Button>
 
                            
                               </StyledTableCell>
